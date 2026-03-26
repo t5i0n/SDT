@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deadline Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Deadline Tracker</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <section class="forms">
+    <div>
+      <h3>Add Course</h3>
+      <input id="courseName" placeholder="Course name" />
+      <button onclick="addCourse()">Add</button>
+    </div>
+
+    <div>
+      <h3>Add Assignment</h3>
+      <input id="title" placeholder="Title" />
+      <select id="courseSelect"></select>
+      <input type="date" id="deadline" />
+      <select id="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button onclick="addAssignment()">Add</button>
+    </div>
+  </section>
+
+  <section class="filters">
+    <button onclick="setFilter('all')">All</button>
+    <button onclick="setFilter('today')">Today</button>
+    <button onclick="setFilter('week')">This Week</button>
+  </section>
+
+  <ul id="assignmentList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
