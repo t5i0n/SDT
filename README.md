@@ -57,11 +57,11 @@ I focused on:
 
 ## Tech Stack
 
-| Layer       | Technologies Used |
-| ----------- | ----------------- |
-| UI          | HTML, CSS         |
-| Application | JavaScript        |
-| Storage     | Local Storage API |
+| Layer        | Technologies Used |
+|--------------|-------------------|
+| UI           | HTML, CSS         |
+| Application  | JavaScript        |
+| Storage      | Local Storage API |
 
 
 ---
